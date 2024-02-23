@@ -4,6 +4,6 @@
 
 $dbhost = "localhost";
 $dbuser = "root";
-$dbpass = "Present@1.";
+$dbpass = "";
 $db = "jabakyc";
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $db) or die("connectfailed:%s\n" . $conn->error);
